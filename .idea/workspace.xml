@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf8cda2c-21d1-4d35-9465-c8bd88e01ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LC001/Solution.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC092/Solution.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC206/Solution.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LC150/Solution.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LC150/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC092/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/LC092/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +36,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,21 +50,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build leetcode/LC001">
-    <configuration name="go build LC092.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/LC092/LC092.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build leetcode/LC150">
     <configuration name="go build leetcode/LC001" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/LC001/main.go" />
       <package value="leetcode/LC001" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build leetcode/LC150" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/LC150/main.go" />
+      <package value="leetcode/LC150" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -97,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leetcode/LC150" />
         <item itemvalue="Go Build.go build leetcode/LC001" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build leetcode/LC1603" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build LC092.go" />
       </list>
     </recent_temporary>
   </component>
