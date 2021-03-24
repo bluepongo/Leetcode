@@ -62,3 +62,4 @@ func (it *NestedIterator) Next() int {
 func (it *NestedIterator) HasNext() bool {
 	return len(it.vals) > 0
 }
+
