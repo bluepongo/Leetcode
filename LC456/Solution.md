@@ -178,7 +178,6 @@ func find132pattern002(nums []int) bool {
 	candidateK := []int{nums[n-1]}
 	maxK := math.MinInt64
 
-  	
 	for i := n - 2; i >= 0; i-- {
 		if nums[i] < maxK {
 			return true
@@ -191,7 +190,6 @@ func find132pattern002(nums []int) bool {
 			candidateK = append(candidateK, nums[i])
 		}
 	}
-
 	return false
 }
 ```
