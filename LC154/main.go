@@ -8,15 +8,17 @@ func findMin(nums []int) int {
 		pivot := low + (high-low)/2
 		if nums[pivot] < nums[high] {
 			high = pivot
-		} else {
+		} else if nums[pivot] > nums[high] {
 			low = pivot + 1
+		} else {
+			high--
 		}
 	}
 	return nums[low]
 }
 
 func main() {
-	nums := []int{2, 5, 6, 0, 1, 2}
+	nums := []int{2, 5, 6, 0, 0, 1, 2}
 	res := findMin(nums)
 	fmt.Println(res)
 }
