@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+// *** 爬楼梯问题 ***
+// dp[i]定义：一个人跳台阶，每次可以选择跳num阶(num in nums),
+// 他要跳到第i级台阶总共有多少种跳法。
+// 显然，跳到第i级台阶的方法数为跳到 dp[i-num] for num in nums的方法数之和，
+// 因为他只要跳到第i-num级，再一步跳num级，就可以到第i级了。
+
 func combinationSum4(nums []int, target int) int {
 	dp := make([]int, target+1)
 	dp[0] = 1
