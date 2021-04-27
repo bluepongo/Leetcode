@@ -1,4 +1,4 @@
-package main
+package LC897
 
 import "fmt"
 
