@@ -1,5 +1,7 @@
 package main
 
+import "sort"
+
 func minimumTimeRequired(jobs []int, k int) int {
 	n := len(jobs)
 	sort.Sort(sort.Reverse(sort.IntSlice(jobs)))
