@@ -1,5 +1,7 @@
 package main
 
+import "sort"
+
 func maxIceCream(costs []int, coins int) (ans int) {
 	sort.Ints(costs)
 	for _, c := range costs {
