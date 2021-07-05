@@ -1,5 +1,7 @@
 package main
 
+import "sort"
+
 func findErrorNums(nums []int) []int {
 	ans := make([]int, 2)
 	sort.Ints(nums)
