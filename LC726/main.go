@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"sort"
 	"strconv"
 	"unicode"
@@ -67,4 +68,10 @@ func countOfAtoms(formula string) string {
 		}
 	}
 	return string(ans)
+}
+
+func main() {
+	formula := "K4(ON(SO3)2)2"
+	res := countOfAtoms(formula)
+	fmt.Println(res)
 }
