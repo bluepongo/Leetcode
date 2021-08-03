@@ -57,3 +57,11 @@ func max(a, b int) int {
 	}
 	return b
 }
+
+func main() {
+	times := [][]int{{2, 1, 1}, {2, 3, 1}, {3, 4, 1}}
+	n := 4
+	k := 2
+	networkDelayTime(times, n, k)
+
+}
