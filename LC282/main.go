@@ -1,4 +1,4 @@
-package MAIN
+package main
 
 func addOperators(num string, target int) (ans []string) {
 	n := len(num)
