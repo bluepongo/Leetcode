@@ -1,6 +1,9 @@
 package main
 
-import "math/rand"
+import (
+	"math/rand"
+	"time"
+)
 
 func strStr(haystack, needle string) int {
 	n, m := len(haystack), len(needle)
