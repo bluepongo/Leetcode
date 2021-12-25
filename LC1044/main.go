@@ -68,6 +68,7 @@ func longestDupSubstring(s string) string {
 		idx := check(arr, m, a1, a2, mod1, mod2)
 		if idx != -1 { // 有重复子串，移动左边界
 			l = m + 1
+			l = m + 1
 			length = m
 			start = idx
 		} else { // 无重复子串，移动右边界
