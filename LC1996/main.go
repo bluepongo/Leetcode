@@ -1,5 +1,7 @@
 package main
 
+import "sort"
+
 func numberOfWeakCharacters(properties [][]int) (ans int) {
 	sort.Slice(properties, func(i, j int) bool {
 		p, q := properties[i], properties[j]
